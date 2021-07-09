@@ -1,0 +1,5 @@
+{
+	"terminal.integrated.defaultProfile.windows": "cmd.exe (migrated)",
+	"terminal.integrated.cursorBlinking": true,
+	"editor.cursorBlinking": "expand"
+}
