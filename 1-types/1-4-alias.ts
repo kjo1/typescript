@@ -6,6 +6,7 @@
 	const name: Text = 'ellie';
 	const address: Text = 'canada';
 	type Num = number;
+	// ? object type
 	type Student = {
 		name: string;
 		age: number;
@@ -23,4 +24,7 @@
 	sonsyName = 'name';
 	type JSON = 'json';
 	const json: JSON = 'json';
+
+	type Bool = true;
+	// const isCat: Bool = false; // only true can be declared
 }
