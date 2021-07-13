@@ -1,3 +1,23 @@
 {
-	"js/ts.implicitProjectConfig.strictNullChecks": true
+	"js/ts.implicitProjectConfig.strictNullChecks": true,
+	"auto-close-tag.SublimeText3Mode": true,
+  "auto-close-tag.insertSpaceBeforeSelfClosingTag": true,
+  "auto-close-tag.excludedTags": [
+      "area",
+    "base",
+    "br",
+    "col",
+    "command",
+    "embed",
+    "hr",
+    "img",
+    "input",
+    "keygen",
+    "link",
+    "meta",
+    "param",
+    "source",
+    "track",
+    "wbr"
+  ]
 }
