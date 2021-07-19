@@ -40,4 +40,25 @@
 
 	const maker = CoffeeMaker.makeMachine(32);
 	maker.fillCoffeeBeans(32);
+
+	class User {
+		get fullName(): string {
+			return `${this.firstName} ${this.lastName}`;
+		}
+		private internalAge = 4;
+		get age(): number {
+			return this.internalAge;
+		}
+		set age(num: number) {
+			if (num < 0) {
+				console.log('age cannot be a negative number');
+			}
+			this.internalAge = num;
+		}
+		constructor(private firstName: string, private lastName: string) {}
+	}
+	const user = new User('Steve', 'Jobs');
+	console.log(user.fullName);
+	user.age = -1;
+	console.log(user.age);
 }
